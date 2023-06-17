@@ -5,112 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tablas en HTML</title>
-
-    <style>
-      /* CSS */
-
-      /* Selector por nombre de etiqueta */
-
-      table,
-      th,
-      td {
-        border-collapse: collapse;
-        border: 1px solid #6a1b9a !important;
-        padding: 5px;
-
-        /* padding-top: 50px;
-        padding-right: 5px;
-        padding-bottom: 30px;
-        padding-left: 10px; */
-      }
-
-      td {
-        text-align: center;
-      }
-
-      table {
-        width: 80%;
-        margin: 0 auto;
-      }
-
-      th {
-        background-color: #6a1b9a;
-        color: #fafafa;
-      }
-
-      /* tr:nth-child(even) {
-        background-color: #d1c4e9;
-      } */
-
-      /* iluminar las celdas */
-      /* td:hover {
-        background-color: #8bc34a;
-        cursor: pointer;
-      } */
-
-      /* iluminar las filas */
-      tr:hover {
-        background-color: #b39ddb;
-        cursor: pointer;
-      }
-    </style>
+    <link rel="stylesheet" href="./css/tablas.css" />
   </head>
   <body>
     <h1>Tablas</h1>
     <table>
       <!-- <thead> -->
-        <tr>
-          <th colspan="4">Datos personales</th>
-        </tr>
-        <tr>
-          <th>Departamento</th>
-          <th>Nombre</th>
-          <th>Correo</th>
-          <th>teléfono</th>
-        </tr>
+      <tr>
+        <th colspan="4">Datos personales</th>
+      </tr>
+      <tr>
+        <th>Departamento</th>
+        <th>Nombre</th>
+        <th>Correo</th>
+        <th>teléfono</th>
+      </tr>
       <!-- </thead> -->
 
       <!-- <tbody> -->
-      
-        <tr>
-          <td rowspan="3">Informatica</td>
-          <td>Juan Alvarenga</td>
-          <td>jealvarengar@unah.edu.hn</td>
-          <td>8888-8888</td>
-        </tr>
-        <tr>
-          <!-- <td>Informatica</td> -->
-          <td>Juan Perez</td>
-          <td>jperez@unah.edu.hn</td>
-          <td>9999-9999</td>
-        </tr>
 
-        <tr>
-          <!-- <td>Informatica</td> -->
-          <td>Juan Perez</td>
-          <td>jperez@unah.edu.hn</td>
-          <td>9999-9999</td>
-        </tr>
+      <tr>
+        <td rowspan="3">Informatica</td>
+        <td>Juan Alvarenga</td>
+        <td>jealvarengar@unah.edu.hn</td>
+        <td>8888-8888</td>
+      </tr>
+      <tr>
+        <!-- <td>Informatica</td> -->
+        <td>Juan Perez</td>
+        <td>jperez@unah.edu.hn</td>
+        <td>9999-9999</td>
+      </tr>
 
-        <tr>
-          <td rowspan="3">Contabilidad</td>
-          <td>Juan Perez</td>
-          <td>jperez@unah.edu.hn</td>
-          <td>9999-9999</td>
-        </tr>
+      <tr>
+        <!-- <td>Informatica</td> -->
+        <td>Juan Perez</td>
+        <td>jperez@unah.edu.hn</td>
+        <td>9999-9999</td>
+      </tr>
 
-        <tr>
-          
-          <td>Juan Perez</td>
-          <td>jperez@unah.edu.hn</td>
-          <td>9999-9999</td>
-        </tr>
-        <tr>
-         
-          <td>Juan Perez</td>
-          <td>jperez@unah.edu.hn</td>
-           <td>9999-9999</td>
-        </tr>
+      <tr>
+        <td rowspan="3">Contabilidad</td>
+        <td>Juan Perez</td>
+        <td>jperez@unah.edu.hn</td>
+        <td>9999-9999</td>
+      </tr>
+
+      <tr>
+        <td>Juan Perez</td>
+        <td>jperez@unah.edu.hn</td>
+        <td>9999-9999</td>
+      </tr>
+      <tr>
+        <td>Juan Perez</td>
+        <td>jperez@unah.edu.hn</td>
+        <td>9999-9999</td>
+      </tr>
       <!-- </tbody> -->
     </table>
   </body>

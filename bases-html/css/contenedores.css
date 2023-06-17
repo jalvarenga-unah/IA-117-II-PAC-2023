@@ -1,0 +1,41 @@
+/* Clase de CSS */
+
+.logo {
+  width: 250px;
+  height: auto;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+.articulo {
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid #242424;
+  padding: 16px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contenido {
+  text-align: justify;
+  font-size: 18px;
+  font-family: system-ui, sans-serif;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  width: 90%;
+
+  margin: 0 auto;
+}
+
+a {
+  margin-left: auto;
+}

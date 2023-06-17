@@ -1,0 +1,46 @@
+/* CSS */
+
+/* Selector por nombre de etiqueta */
+
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: 1px solid #6a1b9a !important;
+  padding: 5px;
+
+  /* padding-top: 50px;
+        padding-right: 5px;
+        padding-bottom: 30px;
+        padding-left: 10px; */
+}
+
+td {
+  text-align: center;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+}
+
+th {
+  background-color: #6a1b9a;
+  color: #fafafa;
+}
+
+/* tr:nth-child(even) {
+        background-color: #d1c4e9;
+      } */
+
+/* iluminar las celdas */
+/* td:hover {
+        background-color: #8bc34a;
+        cursor: pointer;
+      } */
+
+/* iluminar las filas */
+tr:hover {
+  background-color: #b39ddb;
+  cursor: pointer;
+}
