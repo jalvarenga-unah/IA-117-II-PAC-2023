@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formualrio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"
+    />
+  </head>
+  <body>
+    <h1>Formulario</h1>
+
+    <form method="get" action="#">
+      <label for="nombre">Ingrese su nombre:</label>
+      <input
+        required
+        name="nombre"
+        id="nombre"
+        type="text"
+        minlength="4"
+        maxlength="10"
+      />
+
+      <label>
+        Ingrese su correo:
+        <input name="email" id="email" type="email" />
+      </label>
+
+      <input
+        name="telefono"
+        id="telefono"
+        type="tel"
+        placeholder="Ingrese su teléfono"
+      />
+
+      <input type="number" min="0" max="10" />
+
+      <textarea name="" id="" cols="30" rows="5" placeholder="dirección"></textarea>
+
+      <button type="reset">Limpiar</button>
+      <button id="boton" type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
