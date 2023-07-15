@@ -1,5 +1,6 @@
 //como declarar una funcion?
 
+
 function saludo() {
   alert("Hola mundo, desde una función"); // ``
 }
@@ -95,14 +96,21 @@ function diaSemana(dia) {
 }
 
 console.log(diaSemana(4));
-diaSemana = 10
+diaSemana = 10;
 // funciones anonimas
 
-
 const miFuncion = () => {
-    alert('Hola mundo desde una funcion anonimas')
-}
-
+  alert("Hola mundo desde una funcion anonimas");
+};
 
 miFuncion()
 
+
+const numeros = [1,3,2,4,8,6,4,3,7,6]
+
+function sumaAdyacente(numeros){
+
+}
+
+
+sumaAdyacente(numeros)
