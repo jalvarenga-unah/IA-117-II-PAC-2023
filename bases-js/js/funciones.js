@@ -1,6 +1,5 @@
 //como declarar una funcion?
 
-
 function saludo() {
   alert("Hola mundo, desde una función"); // ``
 }
@@ -103,14 +102,38 @@ const miFuncion = () => {
   alert("Hola mundo desde una funcion anonimas");
 };
 
-miFuncion()
+miFuncion();
 
+const numeros = [1, 3, 2, 4, 8, 6, 4, 3, 7, 6];
 
-const numeros = [1,3,2,4,8,6,4,3,7,6]
+function sumaAdyacente(numeros) {}
 
-function sumaAdyacente(numeros){
+sumaAdyacente(numeros);
 
+function evaluar(numero) {
+  if (numero === 0) {
+    console.log("El numero es 0");
+    return;
+  }
+
+  if (numero > 0) {
+    console.log("El numero es positivo");
+    return;
+  } else {
+    console.log("El numero es negativo");
+  }
 }
 
+// 5 -> 5x4x3x2x1 = 120
+// 4 -> 4x3x2x1 = 24
 
-sumaAdyacente(numeros)
+const factorial = (numero) => {
+  
+  let resultado = numero
+
+  for (let i = 1; i <= numero; i++) {
+    resultado = resultado * i;
+  }
+
+  return resultado;
+};
