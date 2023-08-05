@@ -30,7 +30,7 @@ function suma(valores) {
   return valores.n1 + valores.n2;
 }
 
-console.log(suma({ n1: 2, n2: 3 })); // no se puede
+console.log(suma({ n1: 2, n2: 3 }));
 
 const mascota = (nombre, { raza, edad }) => {
   console.log(`Hola, soy ${nombre} y tengo ${edad} años, soy de raza ${raza}`);
